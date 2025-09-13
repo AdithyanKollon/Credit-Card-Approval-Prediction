@@ -82,18 +82,18 @@ The Streamlit app (`app/app.py`) provides:
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/credit-card-approval.git
+git clone https://github.com/AdithyanKollon/credit-card-approval.git
 cd credit-card-approval
 ```
 Install dependencies:
-
+```bash
 pip install -r requirements.txt
-
+```
 
 Run the app:
-
+```bash
 streamlit run app/app.py
-
+```
 🖥️ Usage
 
 Enter applicant information (age, income, credit score, etc.) in the Streamlit form.
