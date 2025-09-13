@@ -33,25 +33,25 @@ It consists of:
 - Interactive UI built in Streamlit for user-friendly input and instant results.
 
 ---
-
 ## 📂 Project Structure
 
+```text
 credit-card-approval/
 │
 ├── README.md
 ├── requirements.txt
 │
 ├── notebooks/
-│ └── model_training.ipynb # Training and evaluation
+│   └── model_training.ipynb        # Training and evaluation
 │
 ├── models/
-│ ├── lgb_model.pkl
-│ ├── gam_model.pkl
-│ └── X_columns.pkl
+│   ├── lgb_model.pkl
+│   ├── gam_model.pkl
+│   └── X_columns.pkl
 │
 └── app/
-└── app.py # Streamlit frontend app
-
+    └── app.py                      # Streamlit frontend app
+```
 
 ---
 
@@ -62,7 +62,7 @@ The model training notebook (`notebooks/model_training.ipynb`) covers:
 - Saving trained models with `joblib` for deployment.
 
 <!-- Add screenshots of training graphs, metrics, and confusion matrices here -->
-![Model Training Placeholder](path/to/your_screenshot.png)
+![Model Training Placeholder](assets/ensemble.png)
 
 ---
 
@@ -73,7 +73,7 @@ The Streamlit app (`app/app.py`) provides:
 - Applicant detail summary table.
 
 <!-- Add screenshots or gifs of your frontend here -->
-![Frontend Placeholder](path/to/your_frontend_screenshot.png)
+![Frontend Placeholder](assets/1.png)
 
 ---
 
