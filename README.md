@@ -98,6 +98,7 @@ Run the app:
 ```bash
 streamlit run app/app.py
 ```
+---
 🖥️ Usage
 
 Enter applicant information (age, income, credit score, etc.) in the Streamlit form.
@@ -106,10 +107,7 @@ Click Predict to see the approval result and probability.
 
 View applicant summary below the prediction.
 
-📊 Screenshots & Results
-<!-- Insert your evaluation metrics here (accuracy, precision, recall, ROC curve, etc.) -->
-
-<!-- Insert more screenshots if needed -->
+---
 
 🛠️ Technologies Used
 
@@ -124,3 +122,5 @@ Joblib
 Streamlit
 
 Jupyter Notebook
+
+---
