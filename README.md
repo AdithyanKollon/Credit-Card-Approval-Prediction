@@ -84,7 +84,7 @@ Clone the repository:
 ```bash
 git clone https://github.com/YOUR_USERNAME/credit-card-approval.git
 cd credit-card-approval
-
+```
 Install dependencies:
 
 pip install -r requirements.txt
