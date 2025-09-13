@@ -63,7 +63,10 @@ The model training notebook (`notebooks/model_training.ipynb`) covers:
 
 <!-- Add screenshots of training graphs, metrics, and confusion matrices here -->
 ![Model Training Placeholder](assets/ensemble.png)
-
+![Model Training Placeholder](assets/light.png)
+![Model Training Placeholder](assets/logistic.png)
+![Model Training Placeholder](assets/features.png)
+![Model Training Placeholder](assets/matrix.png)
 ---
 
 ## 🌐 Web App
@@ -74,6 +77,7 @@ The Streamlit app (`app/app.py`) provides:
 
 <!-- Add screenshots or gifs of your frontend here -->
 ![Frontend Placeholder](assets/1.png)
+![Frontend Placeholder](assets/2.png)
 
 ---
 
