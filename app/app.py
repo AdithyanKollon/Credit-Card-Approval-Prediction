@@ -1,13 +1,18 @@
 import streamlit as st
 import pandas as pd
 import joblib
-
+import os
 # =======================
 # Load models and columns
 # =======================
-lgb_model = joblib.load("lgb_model.pkl")
-gam_model = joblib.load("gam_model.pkl")
-X_columns = joblib.load("X_columns.pkl")
+
+
+# build the path relative to the app.py location
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+lgb_model = joblib.load(os.path.join(BASE_DIR, '..', 'models', 'lgb_model.pkl'))
+gam_model = joblib.load(os.path.join(BASE_DIR, '..', 'models', 'gam_model.pkl'))
+X_columns = joblib.load(os.path.join(BASE_DIR, '..', 'models', 'X_columns.pkl'))
 
 # Categorical options for dropdowns
 categorical_features = {
